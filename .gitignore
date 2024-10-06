@@ -72,3 +72,13 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Log and temporary files
+*.log
+*.temp
+
+# Ignore all content files (except if specifically whitelisted)
+Content/*
+
+# If needed, whitelist specific assets
+!Content/ImportantAsset/*
