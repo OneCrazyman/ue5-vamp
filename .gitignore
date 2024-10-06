@@ -80,5 +80,6 @@ DerivedDataCache/*
 # Ignore all content files (except if specifically whitelisted)
 Content/*
 
-# If needed, whitelist specific assets
-!Content/ImportantAsset/*
+# Whitelist specific assets (이 부분을 조정해줘)
+!Content/**/*.umap   # 레벨 파일 포함
+!Content/**/*.uasset  # 블루프린트 및 에셋 포함
